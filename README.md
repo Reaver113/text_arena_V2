@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Text_arena_V2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is the second evolution of one of my original diploma projects, a command line game:
 
-## Available Scripts
+# Combat Sim
+Functionallity and Usage:
+---
+---
+Each round you will face an assortment of 4 random enimies, once defeated, you will face the Dragon boss.
+After every enemy kill you will recive a random upgrade for either your Sword, Bow, Helemet, or Body armor, providing a bonus to either your damage, or defence. Killing the dragon boss drops double upgrades, and a HP potion that will recover 150 life.
 
-In the project directory, you can run:
+Defeat as many enimies as you can before your health reachs Zero!
 
-### `npm start`
+"Quick attack" will attack the current enemy with a 75% chance to hit, dealing the chosen weapons damage if sucessful.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+"Heavy attack" will attack the current enemy with a 55% chance to hit, dealing 150% of the chosen weapons damage if sucessful.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Attacking the enemy with the weapon thats type corresponds with enemy weakness will deal an aditional 20% damage of the chosen weapons damage.
 
-### `npm test`
+The "Stats" option allows you to view your characters current name and health, weapons and armor, as well as how many eneimes you have defeated.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Upon reaching 0 HP, your Name, Enimes slain, and Dragons slain, will be recorded and the game will be exited.  
+You can view these scores when you next play by typing "Previous Run".
 
-### `npm run build`
+Good luck and have fun!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installation Instructions:
+---
+Running this game requires Python 3.10.5 or later to be installed, you can find it here:  
+https://www.python.org/downloads/  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To install the game, simply navigate to the directory you wish to install the game within your terminal and enter:
+```
+git clone git@github.com:Reaver113/Text_combat_survival.git
+```
+And then run combat_sim.sh with:
+```
+./combat_sim.sh
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+And thats it!
 
-### `npm run eject`
+Development:
+---
+You can follow the development of the game here!  
+https://trello.com/b/YqSUMo0X/combat-sim-game 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: 
+---
+https://github.com/Reaver113/Text_combat_survival
