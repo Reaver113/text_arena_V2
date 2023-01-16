@@ -1,6 +1,6 @@
 # Text_arena_V2
 
-This project is the second evolution of one of my original diploma projects, a command line game:
+This project is the second evolution of one of my original diploma projects, a command line game developed in Python:
 
 # Combat Sim
 Functionallity and Usage:
