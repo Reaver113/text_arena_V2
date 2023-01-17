@@ -1,5 +1,6 @@
 import React,{ useState } from 'react';
 import './GUI.css'
+import Toggle from './Toggle';
 
 const Home = () => {
     var [text, setText] = useState("Please enter your name...")
@@ -73,6 +74,7 @@ const Home = () => {
             <div className={logbox}></div>
             <p className={username}>{user}:</p>
             <div className={inventory}></div>
+            <div className="toggle"><Toggle/></div>
             <button className={quickattack}>Quick Attack</button>
             <button className={heavyattack}>Heavy Attack</button>
             <h1 className={title}>{heading}</h1>
