@@ -18,6 +18,7 @@ const Home = () => {
 
     var [quickattack, setQuickattack] = useState("quickattack")
     var [heavyattack, setHeavyattack] = useState("heavyattack")
+    var [togglebox, setToggleBox] = useState("toggle")
 
 
     const [champion, setChampion] = useState("")
@@ -65,6 +66,7 @@ const Home = () => {
             setUsername("username2")
             setQuickattack("quickattack2")
             setHeavyattack("heavyattack2")
+            setToggleBox("toggle2")
         }
         
     }
@@ -74,7 +76,7 @@ const Home = () => {
             <div className={logbox}></div>
             <p className={username}>{user}:</p>
             <div className={inventory}></div>
-            <div className="toggle"><Toggle/></div>
+            <div className={togglebox}><Toggle/></div>
             <button className={quickattack}>Quick Attack</button>
             <button className={heavyattack}>Heavy Attack</button>
             <h1 className={title}>{heading}</h1>

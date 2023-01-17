@@ -121,16 +121,20 @@ button:hover {
 }
 
 .quickattack2 {
-    transform: translate(90%, -300%);
+    transform: translate(4.5vw, -20vh);
 }
 
 .heavyattack2 {
-    transform: translate(110%, -300%)
+    transform: translate(5.5vw, -20vh)
+}
+
+.toggle {
+    position: absolute;
+    visibility: hidden;
 }
 
 
-.toggle {
-    margin-top: 1vh;
-    position: absolute;
-    transform: translate(50%, -550%)
+.toggle2 {
+    margin-top: 5vh;
+    transform: translate(5vw, -25vh)
 }
