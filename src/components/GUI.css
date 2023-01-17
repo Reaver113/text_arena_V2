@@ -98,6 +98,15 @@ button:hover {
     border: solid;
 }
 
+.chatlog {
+    position: absolute;
+    visibility: hidden;
+}
+
+.chatlog2 {
+    text-anchor: start;
+}
+
 .inventory2 {
     height: 200px;
     width: 200px;

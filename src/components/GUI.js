@@ -1,6 +1,7 @@
 import React,{ useState } from 'react';
 import './GUI.css'
 import Toggle from './Toggle';
+import Game from './Game';
 
 const Home = () => {
     var [text, setText] = useState("Please enter your name...")
@@ -15,10 +16,10 @@ const Home = () => {
     var [logbox, setLogbox] = useState("logbox")
     var [inventory, setInventory] = useState("inventory")
     var [username, setUsername] = useState("username")
-
     var [quickattack, setQuickattack] = useState("quickattack")
     var [heavyattack, setHeavyattack] = useState("heavyattack")
     var [togglebox, setToggleBox] = useState("toggle")
+    var [chatlog, setChatlog] = useState("chatlog")
 
 
     const [champion, setChampion] = useState("")
@@ -67,13 +68,14 @@ const Home = () => {
             setQuickattack("quickattack2")
             setHeavyattack("heavyattack2")
             setToggleBox("toggle2")
+            setChatlog("chatlog2")
         }
         
     }
 
     return(
         <div className={box}>
-            <div className={logbox}></div>
+            <div className={logbox}><p className={chatlog}><Game /></p></div>
             <p className={username}>{user}:</p>
             <div className={inventory}></div>
             <div className={togglebox}><Toggle/></div>
